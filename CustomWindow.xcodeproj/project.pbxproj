@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		905596801FA0D86700598A5E /* UIViewController+SteShowCustomWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9055967F1FA0D86700598A5E /* UIViewController+SteShowCustomWindow.m */; };
 		90D679421F910CE800649913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D679401F910CE800649913 /* Main.storyboard */; };
 		90D679441F910CE800649913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D679431F910CE800649913 /* Assets.xcassets */; };
 		90D679471F910CE800649913 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D679451F910CE800649913 /* LaunchScreen.storyboard */; };
@@ -45,6 +46,8 @@
 		16B31D4CAEF25ED530D2EA7A /* Pods-CustomWindowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomWindowTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomWindowTests/Pods-CustomWindowTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5937A4FFA5D72F1AE9398F68 /* Pods-CustomWindow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomWindow.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomWindow/Pods-CustomWindow.release.xcconfig"; sourceTree = "<group>"; };
 		81995D286FA3436157B739DC /* libPods-CustomWindowTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomWindowTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9055967E1FA0D86700598A5E /* UIViewController+SteShowCustomWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SteShowCustomWindow.h"; sourceTree = "<group>"; };
+		9055967F1FA0D86700598A5E /* UIViewController+SteShowCustomWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SteShowCustomWindow.m"; sourceTree = "<group>"; };
 		90D679371F910CE800649913 /* CustomWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D679411F910CE800649913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90D679431F910CE800649913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -219,6 +222,8 @@
 				90D679831F92EB4600649913 /* UIApplication+SteWindow.m */,
 				90D679851F93577B00649913 /* SteAWindow.h */,
 				90D679861F93577B00649913 /* SteAWindow.m */,
+				9055967E1FA0D86700598A5E /* UIViewController+SteShowCustomWindow.h */,
+				9055967F1FA0D86700598A5E /* UIViewController+SteShowCustomWindow.m */,
 			);
 			path = CustomWin;
 			sourceTree = "<group>";
@@ -513,6 +518,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90D679871F93577B00649913 /* SteAWindow.m in Sources */,
+				905596801FA0D86700598A5E /* UIViewController+SteShowCustomWindow.m in Sources */,
 				90D679731F910DDD00649913 /* MainViewController.m in Sources */,
 				90D679801F91274A00649913 /* CustomViewController.m in Sources */,
 				90D6794A1F910CE800649913 /* main.m in Sources */,

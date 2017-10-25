@@ -8,7 +8,7 @@
 
 #import "MainViewController.h"
 #import "CustomViewController.h"
-
+#import "UIViewController+SteShowCustomWindow.h"
 @interface MainViewController ()
 
 @end
@@ -32,7 +32,8 @@
 #pragma mark- EventRespone
 - (IBAction)showViewControllerAction:(id)sender {
     CustomViewController* vc = [CustomViewController new];
-    [vc show];
+    [self showSteWinWithViewController:vc animate:YES];
+    
 }
 #pragma mark- CustomDelegateMethod
 
