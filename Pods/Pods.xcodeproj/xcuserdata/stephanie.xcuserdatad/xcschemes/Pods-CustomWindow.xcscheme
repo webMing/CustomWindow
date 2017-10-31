@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B39D12DDD4E35E66223A1990DF706C0D'
+               BlueprintIdentifier = '2A0A6EF5E4C08AA9A2CC7969D9A40298'
                BlueprintName = 'Pods-CustomWindow'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-CustomWindow.a'>

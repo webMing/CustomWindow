@@ -6,7 +6,8 @@ target 'CustomWindow' do
   # use_frameworks!
 
   # Pods for CustomWindow
-  pod 'Masonry', '~> 1.1.0'  
+  pod 'Masonry', '~> 1.1.0'
+  pod 'SDWebImage', '~> 4.1.0'  
   target 'CustomWindowTests' do
     inherit! :search_paths
     # Pods for testing

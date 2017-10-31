@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		902FDF2B1FA22A5C006F90E1 /* MainViewControllerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 902FDF2A1FA22A5C006F90E1 /* MainViewControllerTableViewCell.m */; };
 		905596801FA0D86700598A5E /* UIViewController+SteShowCustomWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9055967F1FA0D86700598A5E /* UIViewController+SteShowCustomWindow.m */; };
+		90AA18D11FA63509008E65C1 /* TestTextAttachmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AA18D01FA63509008E65C1 /* TestTextAttachmentViewController.m */; };
+		90AA18D41FA64127008E65C1 /* NSTextAttachment_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AA18D31FA64127008E65C1 /* NSTextAttachment_Custom.m */; };
 		90D679421F910CE800649913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D679401F910CE800649913 /* Main.storyboard */; };
 		90D679441F910CE800649913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D679431F910CE800649913 /* Assets.xcassets */; };
 		90D679471F910CE800649913 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D679451F910CE800649913 /* LaunchScreen.storyboard */; };
@@ -20,6 +23,7 @@
 		90D679801F91274A00649913 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D6797E1F91274A00649913 /* CustomViewController.m */; };
 		90D679841F92EB4600649913 /* UIApplication+SteWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D679831F92EB4600649913 /* UIApplication+SteWindow.m */; };
 		90D679871F93577B00649913 /* SteAWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D679861F93577B00649913 /* SteAWindow.m */; };
+		90ED7AFB1FA4F20D0055EB1B /* x.txt in Resources */ = {isa = PBXBuildFile; fileRef = 90ED7AFA1FA4F20C0055EB1B /* x.txt */; };
 		928A3B972754DE542CE355AE /* libPods-CustomWindowUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D971E138D1DCD2D0D1B996AF /* libPods-CustomWindowUITests.a */; };
 		B5D52D5087C1FC0FB0BF340B /* libPods-CustomWindowTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81995D286FA3436157B739DC /* libPods-CustomWindowTests.a */; };
 		DEA4478F057BA3D805CB0E85 /* libPods-CustomWindow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC79442689AFB9234C07261 /* libPods-CustomWindow.a */; };
@@ -46,8 +50,14 @@
 		16B31D4CAEF25ED530D2EA7A /* Pods-CustomWindowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomWindowTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomWindowTests/Pods-CustomWindowTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5937A4FFA5D72F1AE9398F68 /* Pods-CustomWindow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomWindow.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomWindow/Pods-CustomWindow.release.xcconfig"; sourceTree = "<group>"; };
 		81995D286FA3436157B739DC /* libPods-CustomWindowTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomWindowTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		902FDF291FA22A5C006F90E1 /* MainViewControllerTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewControllerTableViewCell.h; sourceTree = "<group>"; };
+		902FDF2A1FA22A5C006F90E1 /* MainViewControllerTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewControllerTableViewCell.m; sourceTree = "<group>"; };
 		9055967E1FA0D86700598A5E /* UIViewController+SteShowCustomWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SteShowCustomWindow.h"; sourceTree = "<group>"; };
 		9055967F1FA0D86700598A5E /* UIViewController+SteShowCustomWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SteShowCustomWindow.m"; sourceTree = "<group>"; };
+		90AA18CF1FA63509008E65C1 /* TestTextAttachmentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTextAttachmentViewController.h; sourceTree = "<group>"; };
+		90AA18D01FA63509008E65C1 /* TestTextAttachmentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTextAttachmentViewController.m; sourceTree = "<group>"; };
+		90AA18D21FA64127008E65C1 /* NSTextAttachment_Custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSTextAttachment_Custom.h; sourceTree = "<group>"; };
+		90AA18D31FA64127008E65C1 /* NSTextAttachment_Custom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTextAttachment_Custom.m; sourceTree = "<group>"; };
 		90D679371F910CE800649913 /* CustomWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D679411F910CE800649913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90D679431F910CE800649913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -72,6 +82,7 @@
 		90D679831F92EB4600649913 /* UIApplication+SteWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+SteWindow.m"; sourceTree = "<group>"; };
 		90D679851F93577B00649913 /* SteAWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SteAWindow.h; sourceTree = "<group>"; };
 		90D679861F93577B00649913 /* SteAWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SteAWindow.m; sourceTree = "<group>"; };
+		90ED7AFA1FA4F20C0055EB1B /* x.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = x.txt; sourceTree = "<group>"; };
 		9166E267D3DBDEED3735E711 /* Pods-CustomWindowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomWindowUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomWindowUITests/Pods-CustomWindowUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9CC79442689AFB9234C07261 /* libPods-CustomWindow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomWindow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47316BD743D5B57DDAF787E /* Pods-CustomWindow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomWindow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomWindow/Pods-CustomWindow.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +142,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		90AA18CE1FA634EA008E65C1 /* TestTextAttachment */ = {
+			isa = PBXGroup;
+			children = (
+				90AA18CF1FA63509008E65C1 /* TestTextAttachmentViewController.h */,
+				90AA18D01FA63509008E65C1 /* TestTextAttachmentViewController.m */,
+				90AA18D21FA64127008E65C1 /* NSTextAttachment_Custom.h */,
+				90AA18D31FA64127008E65C1 /* NSTextAttachment_Custom.m */,
+			);
+			path = TestTextAttachment;
+			sourceTree = "<group>";
+		};
 		90D6792E1F910CE800649913 = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +178,7 @@
 		90D679391F910CE800649913 /* CustomWindow */ = {
 			isa = PBXGroup;
 			children = (
+				90AA18CE1FA634EA008E65C1 /* TestTextAttachment */,
 				90D6797C1F91271D00649913 /* CustomViewController */,
 				90D679751F91157200649913 /* CustomWin */,
 				90D679741F910E9500649913 /* Sources */,
@@ -165,6 +188,7 @@
 				90D679451F910CE800649913 /* LaunchScreen.storyboard */,
 				90D679481F910CE800649913 /* Info.plist */,
 				90D679491F910CE800649913 /* main.m */,
+				90ED7AFA1FA4F20C0055EB1B /* x.txt */,
 			);
 			path = CustomWindow;
 			sourceTree = "<group>";
@@ -201,6 +225,8 @@
 			children = (
 				90D679711F910DDD00649913 /* MainViewController.h */,
 				90D679721F910DDD00649913 /* MainViewController.m */,
+				902FDF291FA22A5C006F90E1 /* MainViewControllerTableViewCell.h */,
+				902FDF2A1FA22A5C006F90E1 /* MainViewControllerTableViewCell.m */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -355,6 +381,7 @@
 				90D679471F910CE800649913 /* LaunchScreen.storyboard in Resources */,
 				90D679441F910CE800649913 /* Assets.xcassets in Resources */,
 				90D679421F910CE800649913 /* Main.storyboard in Resources */,
+				90ED7AFB1FA4F20D0055EB1B /* x.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,12 +544,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90AA18D41FA64127008E65C1 /* NSTextAttachment_Custom.m in Sources */,
 				90D679871F93577B00649913 /* SteAWindow.m in Sources */,
 				905596801FA0D86700598A5E /* UIViewController+SteShowCustomWindow.m in Sources */,
 				90D679731F910DDD00649913 /* MainViewController.m in Sources */,
 				90D679801F91274A00649913 /* CustomViewController.m in Sources */,
 				90D6794A1F910CE800649913 /* main.m in Sources */,
 				90D679841F92EB4600649913 /* UIApplication+SteWindow.m in Sources */,
+				90AA18D11FA63509008E65C1 /* TestTextAttachmentViewController.m in Sources */,
+				902FDF2B1FA22A5C006F90E1 /* MainViewControllerTableViewCell.m in Sources */,
 				90D679781F91159600649913 /* SteWindow.m in Sources */,
 				90D6796F1F910D8D00649913 /* AppDelegate.m in Sources */,
 			);
