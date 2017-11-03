@@ -8,6 +8,7 @@
 
 #import "TestTextAttachmentViewController.h"
 #import "NSTextAttachment_Custom.h"
+#import <JavaScriptCore/JavaScriptCore.h>
 
 @interface TestTextAttachmentViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *contentLabel;
@@ -19,7 +20,8 @@
 #pragma mark- LifeCicle
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self configureUI];
+    [self evaluateScriptFromJSFile];
+    //[self configureUI];
     // Do any additional setup after loading the view.
 }
 
@@ -39,6 +41,13 @@
     NSAttributedString* attmStr = [NSAttributedString attributedStringWithAttachment:attm];
     [mutAttrStr appendAttributedString:attmStr];
     self.contentLabel.attributedText = mutAttrStr;
+    NSString* eyeStr = @"👓";
+    for (int i = 0; i < eyeStr.length ; i++) {
+        NSLog(@"%c",[eyeStr characterAtIndex:i]);
+    }
+    unichar ch = [eyeStr characterAtIndex:0];
+    NSData* data = [eyeStr dataUsingEncoding:NSASCIIStringEncoding];
+    
 }
 
 #pragma mark- EventRespone
@@ -50,5 +59,13 @@
 #pragma mark- GetterAndSetter
 
 #pragma mark- PrivateMethod
-
+- (void)evaluateScriptFromJSFile {
+    NSString * jsPath = [[NSBundle mainBundle] pathForResource:@"city" ofType:@"js"];
+    NSString * jsString = [NSString stringWithContentsOfFile:jsPath encoding:NSUTF8StringEncoding error:nil];
+    JSVirtualMachine* machine =[[JSVirtualMachine alloc]init];
+    JSContext* jsContent = [[JSContext alloc]initWithVirtualMachine:machine];
+    [jsContent evaluateScript:jsString];
+    //JSValue *value = [jsContent evaluateScript:@"city"];
+    NSLog(@"%@",[jsContent[@"city"] toArray]);
+}
 @end

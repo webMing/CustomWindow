@@ -22,6 +22,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    
     //self.tableView.estimatedRowHeight = 88.0f;
     //self.tableView.rowHeight = UITableViewAutomaticDimension;
     NSMutableArray* imgUrlStrsArray = @[].mutableCopy;
