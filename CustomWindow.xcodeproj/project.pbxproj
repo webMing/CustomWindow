@@ -12,6 +12,12 @@
 		905596801FA0D86700598A5E /* UIViewController+SteShowCustomWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9055967F1FA0D86700598A5E /* UIViewController+SteShowCustomWindow.m */; };
 		90AA18D11FA63509008E65C1 /* TestTextAttachmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AA18D01FA63509008E65C1 /* TestTextAttachmentViewController.m */; };
 		90AA18D41FA64127008E65C1 /* NSTextAttachment_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AA18D31FA64127008E65C1 /* NSTextAttachment_Custom.m */; };
+		90B818311FAF2F4000577AB8 /* TestJSFilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B818301FAF2F4000577AB8 /* TestJSFilesViewController.m */; };
+		90B818371FAF2F7E00577AB8 /* city.js in Resources */ = {isa = PBXBuildFile; fileRef = 90B818331FAF2F7E00577AB8 /* city.js */; };
+		90B818381FAF2F7E00577AB8 /* district.js in Resources */ = {isa = PBXBuildFile; fileRef = 90B818341FAF2F7E00577AB8 /* district.js */; };
+		90B818391FAF2F7E00577AB8 /* province.js in Resources */ = {isa = PBXBuildFile; fileRef = 90B818351FAF2F7E00577AB8 /* province.js */; };
+		90B8183A1FAF2F7E00577AB8 /* street.js in Resources */ = {isa = PBXBuildFile; fileRef = 90B818361FAF2F7E00577AB8 /* street.js */; };
+		90B8183D1FAF318100577AB8 /* ShowCustomWinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B8183C1FAF318100577AB8 /* ShowCustomWinViewController.m */; };
 		90D679421F910CE800649913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D679401F910CE800649913 /* Main.storyboard */; };
 		90D679441F910CE800649913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D679431F910CE800649913 /* Assets.xcassets */; };
 		90D679471F910CE800649913 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D679451F910CE800649913 /* LaunchScreen.storyboard */; };
@@ -24,10 +30,6 @@
 		90D679801F91274A00649913 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D6797E1F91274A00649913 /* CustomViewController.m */; };
 		90D679841F92EB4600649913 /* UIApplication+SteWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D679831F92EB4600649913 /* UIApplication+SteWindow.m */; };
 		90D679871F93577B00649913 /* SteAWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D679861F93577B00649913 /* SteAWindow.m */; };
-		90DD433F1FACA38D009E9151 /* province.js in Resources */ = {isa = PBXBuildFile; fileRef = 90DD433B1FACA38C009E9151 /* province.js */; };
-		90DD43401FACA38D009E9151 /* city.js in Resources */ = {isa = PBXBuildFile; fileRef = 90DD433C1FACA38C009E9151 /* city.js */; };
-		90DD43411FACA38D009E9151 /* district.js in Resources */ = {isa = PBXBuildFile; fileRef = 90DD433D1FACA38C009E9151 /* district.js */; };
-		90DD43421FACA38D009E9151 /* street.js in Resources */ = {isa = PBXBuildFile; fileRef = 90DD433E1FACA38D009E9151 /* street.js */; };
 		90ED7AFB1FA4F20D0055EB1B /* x.txt in Resources */ = {isa = PBXBuildFile; fileRef = 90ED7AFA1FA4F20C0055EB1B /* x.txt */; };
 		928A3B972754DE542CE355AE /* libPods-CustomWindowUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D971E138D1DCD2D0D1B996AF /* libPods-CustomWindowUITests.a */; };
 		B5D52D5087C1FC0FB0BF340B /* libPods-CustomWindowTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81995D286FA3436157B739DC /* libPods-CustomWindowTests.a */; };
@@ -65,6 +67,14 @@
 		90AA18D01FA63509008E65C1 /* TestTextAttachmentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTextAttachmentViewController.m; sourceTree = "<group>"; };
 		90AA18D21FA64127008E65C1 /* NSTextAttachment_Custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSTextAttachment_Custom.h; sourceTree = "<group>"; };
 		90AA18D31FA64127008E65C1 /* NSTextAttachment_Custom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTextAttachment_Custom.m; sourceTree = "<group>"; };
+		90B8182F1FAF2F4000577AB8 /* TestJSFilesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestJSFilesViewController.h; sourceTree = "<group>"; };
+		90B818301FAF2F4000577AB8 /* TestJSFilesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestJSFilesViewController.m; sourceTree = "<group>"; };
+		90B818331FAF2F7E00577AB8 /* city.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = city.js; sourceTree = "<group>"; };
+		90B818341FAF2F7E00577AB8 /* district.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = district.js; sourceTree = "<group>"; };
+		90B818351FAF2F7E00577AB8 /* province.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = province.js; sourceTree = "<group>"; };
+		90B818361FAF2F7E00577AB8 /* street.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = street.js; sourceTree = "<group>"; };
+		90B8183B1FAF318100577AB8 /* ShowCustomWinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowCustomWinViewController.h; sourceTree = "<group>"; };
+		90B8183C1FAF318100577AB8 /* ShowCustomWinViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowCustomWinViewController.m; sourceTree = "<group>"; };
 		90D679371F910CE800649913 /* CustomWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D679411F910CE800649913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90D679431F910CE800649913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -89,10 +99,6 @@
 		90D679831F92EB4600649913 /* UIApplication+SteWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+SteWindow.m"; sourceTree = "<group>"; };
 		90D679851F93577B00649913 /* SteAWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SteAWindow.h; sourceTree = "<group>"; };
 		90D679861F93577B00649913 /* SteAWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SteAWindow.m; sourceTree = "<group>"; };
-		90DD433B1FACA38C009E9151 /* province.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = province.js; sourceTree = "<group>"; };
-		90DD433C1FACA38C009E9151 /* city.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = city.js; sourceTree = "<group>"; };
-		90DD433D1FACA38C009E9151 /* district.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = district.js; sourceTree = "<group>"; };
-		90DD433E1FACA38D009E9151 /* street.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = street.js; sourceTree = "<group>"; };
 		90ED7AFA1FA4F20C0055EB1B /* x.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = x.txt; sourceTree = "<group>"; };
 		9166E267D3DBDEED3735E711 /* Pods-CustomWindowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomWindowUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomWindowUITests/Pods-CustomWindowUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9CC79442689AFB9234C07261 /* libPods-CustomWindow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomWindow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -173,6 +179,27 @@
 			path = TestTextAttachment;
 			sourceTree = "<group>";
 		};
+		90B8182E1FAF2EBA00577AB8 /* TestJSFilesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				90B818321FAF2F7E00577AB8 /* JSFiles */,
+				90B8182F1FAF2F4000577AB8 /* TestJSFilesViewController.h */,
+				90B818301FAF2F4000577AB8 /* TestJSFilesViewController.m */,
+			);
+			path = TestJSFilesViewController;
+			sourceTree = "<group>";
+		};
+		90B818321FAF2F7E00577AB8 /* JSFiles */ = {
+			isa = PBXGroup;
+			children = (
+				90B818331FAF2F7E00577AB8 /* city.js */,
+				90B818341FAF2F7E00577AB8 /* district.js */,
+				90B818351FAF2F7E00577AB8 /* province.js */,
+				90B818361FAF2F7E00577AB8 /* street.js */,
+			);
+			path = JSFiles;
+			sourceTree = "<group>";
+		};
 		90D6792E1F910CE800649913 = {
 			isa = PBXGroup;
 			children = (
@@ -198,8 +225,8 @@
 		90D679391F910CE800649913 /* CustomWindow */ = {
 			isa = PBXGroup;
 			children = (
-				90DD433A1FACA386009E9151 /* JSFiles */,
 				9029B5FD1FA8C04900648438 /* Categorys */,
+				90B8182E1FAF2EBA00577AB8 /* TestJSFilesViewController */,
 				90AA18CE1FA634EA008E65C1 /* TestTextAttachment */,
 				90D6797C1F91271D00649913 /* CustomViewController */,
 				90D679751F91157200649913 /* CustomWin */,
@@ -272,6 +299,8 @@
 				90D679861F93577B00649913 /* SteAWindow.m */,
 				9055967E1FA0D86700598A5E /* UIViewController+SteShowCustomWindow.h */,
 				9055967F1FA0D86700598A5E /* UIViewController+SteShowCustomWindow.m */,
+				90B8183B1FAF318100577AB8 /* ShowCustomWinViewController.h */,
+				90B8183C1FAF318100577AB8 /* ShowCustomWinViewController.m */,
 			);
 			path = CustomWin;
 			sourceTree = "<group>";
@@ -283,17 +312,6 @@
 				90D6797E1F91274A00649913 /* CustomViewController.m */,
 			);
 			path = CustomViewController;
-			sourceTree = "<group>";
-		};
-		90DD433A1FACA386009E9151 /* JSFiles */ = {
-			isa = PBXGroup;
-			children = (
-				90DD433C1FACA38C009E9151 /* city.js */,
-				90DD433D1FACA38C009E9151 /* district.js */,
-				90DD433B1FACA38C009E9151 /* province.js */,
-				90DD433E1FACA38D009E9151 /* street.js */,
-			);
-			path = JSFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,14 +429,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90B818391FAF2F7E00577AB8 /* province.js in Resources */,
 				90D679471F910CE800649913 /* LaunchScreen.storyboard in Resources */,
 				90D679441F910CE800649913 /* Assets.xcassets in Resources */,
-				90DD43411FACA38D009E9151 /* district.js in Resources */,
-				90DD43421FACA38D009E9151 /* street.js in Resources */,
+				90B8183A1FAF2F7E00577AB8 /* street.js in Resources */,
 				90D679421F910CE800649913 /* Main.storyboard in Resources */,
-				90DD43401FACA38D009E9151 /* city.js in Resources */,
 				90ED7AFB1FA4F20D0055EB1B /* x.txt in Resources */,
-				90DD433F1FACA38D009E9151 /* province.js in Resources */,
+				90B818381FAF2F7E00577AB8 /* district.js in Resources */,
+				90B818371FAF2F7E00577AB8 /* city.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,11 +602,13 @@
 				90AA18D41FA64127008E65C1 /* NSTextAttachment_Custom.m in Sources */,
 				90D679871F93577B00649913 /* SteAWindow.m in Sources */,
 				905596801FA0D86700598A5E /* UIViewController+SteShowCustomWindow.m in Sources */,
+				90B818311FAF2F4000577AB8 /* TestJSFilesViewController.m in Sources */,
 				90D679731F910DDD00649913 /* MainViewController.m in Sources */,
 				90D679801F91274A00649913 /* CustomViewController.m in Sources */,
 				90D6794A1F910CE800649913 /* main.m in Sources */,
 				90D679841F92EB4600649913 /* UIApplication+SteWindow.m in Sources */,
 				90AA18D11FA63509008E65C1 /* TestTextAttachmentViewController.m in Sources */,
+				90B8183D1FAF318100577AB8 /* ShowCustomWinViewController.m in Sources */,
 				902FDF2B1FA22A5C006F90E1 /* MainViewControllerTableViewCell.m in Sources */,
 				90D679781F91159600649913 /* SteWindow.m in Sources */,
 				9029B6001FA8C06800648438 /* NSString+Custom.m in Sources */,

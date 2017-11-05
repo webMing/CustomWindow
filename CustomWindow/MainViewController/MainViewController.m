@@ -8,8 +8,8 @@
 
 #import "MainViewController.h"
 #import "CustomViewController.h"
-#import "UIViewController+SteShowCustomWindow.h"
 #import "MainViewControllerTableViewCell.h"
+
 @interface MainViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSMutableArray* imgsMutArray;
@@ -22,9 +22,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
-    
     //self.tableView.estimatedRowHeight = 88.0f;
     //self.tableView.rowHeight = UITableViewAutomaticDimension;
     NSMutableArray* imgUrlStrsArray = @[].mutableCopy;
@@ -71,10 +68,6 @@
 #pragma mark- CreateUI
 
 #pragma mark- EventRespone
-- (IBAction)showViewControllerAction:(id)sender {
-    CustomViewController* vc = [CustomViewController new];
-    [self showSteWinWithViewController:vc animate:YES];
-}
 
 #pragma mark- CustomDelegateMethod
 
@@ -105,6 +98,7 @@
     }
     return imgH + 1;
 }
+
 //imgh sh
 //imgw sw
 //- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
