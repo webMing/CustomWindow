@@ -47,6 +47,7 @@
     }
     unichar ch = [eyeStr characterAtIndex:0];
     NSData* data = [eyeStr dataUsingEncoding:NSASCIIStringEncoding];
+
     
 }
 
@@ -60,6 +61,7 @@
 
 #pragma mark- PrivateMethod
 - (void)evaluateScriptFromJSFile {
+    // 执行本地js文件
     NSString * jsPath = [[NSBundle mainBundle] pathForResource:@"city" ofType:@"js"];
     NSString * jsString = [NSString stringWithContentsOfFile:jsPath encoding:NSUTF8StringEncoding error:nil];
     JSVirtualMachine* machine =[[JSVirtualMachine alloc]init];
