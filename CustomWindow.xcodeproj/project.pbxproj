@@ -18,6 +18,7 @@
 		90B818391FAF2F7E00577AB8 /* province.js in Resources */ = {isa = PBXBuildFile; fileRef = 90B818351FAF2F7E00577AB8 /* province.js */; };
 		90B8183A1FAF2F7E00577AB8 /* street.js in Resources */ = {isa = PBXBuildFile; fileRef = 90B818361FAF2F7E00577AB8 /* street.js */; };
 		90B8183D1FAF318100577AB8 /* ShowCustomWinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B8183C1FAF318100577AB8 /* ShowCustomWinViewController.m */; };
+		90B818411FAF3C1C00577AB8 /* TestBitsOperaterActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B818401FAF3C1C00577AB8 /* TestBitsOperaterActionViewController.m */; };
 		90D679421F910CE800649913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D679401F910CE800649913 /* Main.storyboard */; };
 		90D679441F910CE800649913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D679431F910CE800649913 /* Assets.xcassets */; };
 		90D679471F910CE800649913 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D679451F910CE800649913 /* LaunchScreen.storyboard */; };
@@ -75,6 +76,8 @@
 		90B818361FAF2F7E00577AB8 /* street.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = street.js; sourceTree = "<group>"; };
 		90B8183B1FAF318100577AB8 /* ShowCustomWinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowCustomWinViewController.h; sourceTree = "<group>"; };
 		90B8183C1FAF318100577AB8 /* ShowCustomWinViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowCustomWinViewController.m; sourceTree = "<group>"; };
+		90B8183F1FAF3C1C00577AB8 /* TestBitsOperaterActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBitsOperaterActionViewController.h; sourceTree = "<group>"; };
+		90B818401FAF3C1C00577AB8 /* TestBitsOperaterActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBitsOperaterActionViewController.m; sourceTree = "<group>"; };
 		90D679371F910CE800649913 /* CustomWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D679411F910CE800649913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90D679431F910CE800649913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -200,6 +203,15 @@
 			path = JSFiles;
 			sourceTree = "<group>";
 		};
+		90B8183E1FAF3C0B00577AB8 /* TestBitsOperaterAction */ = {
+			isa = PBXGroup;
+			children = (
+				90B8183F1FAF3C1C00577AB8 /* TestBitsOperaterActionViewController.h */,
+				90B818401FAF3C1C00577AB8 /* TestBitsOperaterActionViewController.m */,
+			);
+			path = TestBitsOperaterAction;
+			sourceTree = "<group>";
+		};
 		90D6792E1F910CE800649913 = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +237,7 @@
 		90D679391F910CE800649913 /* CustomWindow */ = {
 			isa = PBXGroup;
 			children = (
+				90B8183E1FAF3C0B00577AB8 /* TestBitsOperaterAction */,
 				9029B5FD1FA8C04900648438 /* Categorys */,
 				90B8182E1FAF2EBA00577AB8 /* TestJSFilesViewController */,
 				90AA18CE1FA634EA008E65C1 /* TestTextAttachment */,
@@ -604,6 +617,7 @@
 				905596801FA0D86700598A5E /* UIViewController+SteShowCustomWindow.m in Sources */,
 				90B818311FAF2F4000577AB8 /* TestJSFilesViewController.m in Sources */,
 				90D679731F910DDD00649913 /* MainViewController.m in Sources */,
+				90B818411FAF3C1C00577AB8 /* TestBitsOperaterActionViewController.m in Sources */,
 				90D679801F91274A00649913 /* CustomViewController.m in Sources */,
 				90D6794A1F910CE800649913 /* main.m in Sources */,
 				90D679841F92EB4600649913 /* UIApplication+SteWindow.m in Sources */,
