@@ -25,7 +25,7 @@ typedef NS_OPTIONS(NSUInteger, SteBitsOptionsOperation) {
     SteBitsOptionsOperationType1 = 1 << 0,
     SteBitsOptionsOperationType2 = 1 << 1,
     SteBitsOptionsOperationType3 = 1 << 2,
-    SteBitsOptionsOperationType4 = 1 << 2,
+    SteBitsOptionsOperationType4 = 1 << 3,
 };
 
 @interface TestBitsOperaterActionViewController (){
@@ -98,17 +98,7 @@ typedef NS_OPTIONS(NSUInteger, SteBitsOptionsOperation) {
 - (IBAction)submit:(id)sender {
     
     //NSLog(@"_bits.bit_1:%d",_bits.bit_1);
-    //NSLog(@"0x%lx",(unsigned long)self.option);
-//    for (int times = 1; times <= 5; times++) {
-//        NSLog(@">>%d value:%ld",times,self.option >>times);
-//        NSLog(@"0x%lx",(unsigned long)self.option);
-//    }
-    /*
-        110 -> 11 -> 1 -> 0
-        0      1     2    3
-        6      3     1    0
-    */
-    NSLog(@"%@", [self toBinaryNumWith:324]);
+    NSLog(@"%@", [self toBinaryNumWith:self.option]);
     
 }
 
@@ -119,11 +109,12 @@ typedef NS_OPTIONS(NSUInteger, SteBitsOptionsOperation) {
     while (chu != 0) {
         yu  = chu %2;
         chu = chu /2;
-        [mutArray addObject:[NSString stringWithFormat:@"%ld",yu]];
+        [mutArray addObject:[NSString stringWithFormat:@"%ld",(unsigned long)yu]];
     }
     NSMutableString* mutStr = @"".mutableCopy;
-    for (int i = mutArray.count - 1 ; i >= 0; i--) {
-        [mutStr appendString:mutArray[i]];
+    for (int i = 0 ; i < mutArray.count; i++) {
+        //反序列
+        [mutStr appendString:mutArray[mutArray.count - i - 1]];
     }
     return mutStr.copy;
     //return mutArray.reverseObjectEnumerator.allObjects;
