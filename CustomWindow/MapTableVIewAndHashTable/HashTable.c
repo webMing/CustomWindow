@@ -7,7 +7,7 @@
 //
 
 #include "HashTable.h"
-#include <stdio.h>
+//#include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 #include <stdbool.h>
@@ -81,6 +81,7 @@ void display() {
     printf("\n");
 }
 
+/*
 int main() {
     dummyItem = (struct DataItem*)sizeof(struct DataItem);
     dummyItem->key = -1;
@@ -110,4 +111,4 @@ int main() {
     }
     
 }
-
+*/

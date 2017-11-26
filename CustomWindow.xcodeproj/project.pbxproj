@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		9029B6001FA8C06800648438 /* NSString+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 9029B5FF1FA8C06800648438 /* NSString+Custom.m */; };
 		902FDF2B1FA22A5C006F90E1 /* MainViewControllerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 902FDF2A1FA22A5C006F90E1 /* MainViewControllerTableViewCell.m */; };
-		9039FA901FB4AFAC000EC148 /* HashTable.c in Sources */ = {isa = PBXBuildFile; fileRef = 9039FA8E1FB4AFAC000EC148 /* HashTable.c */; };
 		905596801FA0D86700598A5E /* UIViewController+SteShowCustomWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9055967F1FA0D86700598A5E /* UIViewController+SteShowCustomWindow.m */; };
+		9069B4241FB749A600457CA3 /* LearnOutLetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9069B4231FB749A600457CA3 /* LearnOutLetsViewController.m */; };
+		9069B4271FB749E200457CA3 /* LearnOutLetsCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9069B4261FB749E200457CA3 /* LearnOutLetsCustomView.m */; };
 		906E11C91FB09579005B205A /* MapTableVIewAndHashTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906E11C81FB09579005B205A /* MapTableVIewAndHashTableViewController.m */; };
+		909FDBFE1FB5E2EF00567097 /* HashTable.c in Sources */ = {isa = PBXBuildFile; fileRef = 909FDBFD1FB5E2EE00567097 /* HashTable.c */; };
 		90AA18D11FA63509008E65C1 /* TestTextAttachmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AA18D01FA63509008E65C1 /* TestTextAttachmentViewController.m */; };
 		90AA18D41FA64127008E65C1 /* NSTextAttachment_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AA18D31FA64127008E65C1 /* NSTextAttachment_Custom.m */; };
 		90B818311FAF2F4000577AB8 /* TestJSFilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B818301FAF2F4000577AB8 /* TestJSFilesViewController.m */; };
@@ -66,12 +68,16 @@
 		9029B5FF1FA8C06800648438 /* NSString+Custom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Custom.m"; sourceTree = "<group>"; };
 		902FDF291FA22A5C006F90E1 /* MainViewControllerTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewControllerTableViewCell.h; sourceTree = "<group>"; };
 		902FDF2A1FA22A5C006F90E1 /* MainViewControllerTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewControllerTableViewCell.m; sourceTree = "<group>"; };
-		9039FA8E1FB4AFAC000EC148 /* HashTable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HashTable.c; sourceTree = "<group>"; };
-		9039FA8F1FB4AFAC000EC148 /* HashTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashTable.h; sourceTree = "<group>"; };
 		9055967E1FA0D86700598A5E /* UIViewController+SteShowCustomWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SteShowCustomWindow.h"; sourceTree = "<group>"; };
 		9055967F1FA0D86700598A5E /* UIViewController+SteShowCustomWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SteShowCustomWindow.m"; sourceTree = "<group>"; };
+		9069B4221FB749A600457CA3 /* LearnOutLetsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LearnOutLetsViewController.h; sourceTree = "<group>"; };
+		9069B4231FB749A600457CA3 /* LearnOutLetsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnOutLetsViewController.m; sourceTree = "<group>"; };
+		9069B4251FB749E200457CA3 /* LearnOutLetsCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LearnOutLetsCustomView.h; sourceTree = "<group>"; };
+		9069B4261FB749E200457CA3 /* LearnOutLetsCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnOutLetsCustomView.m; sourceTree = "<group>"; };
 		906E11C71FB09579005B205A /* MapTableVIewAndHashTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapTableVIewAndHashTableViewController.h; sourceTree = "<group>"; };
 		906E11C81FB09579005B205A /* MapTableVIewAndHashTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapTableVIewAndHashTableViewController.m; sourceTree = "<group>"; };
+		909FDBFC1FB5E2D300567097 /* HashTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashTable.h; sourceTree = "<group>"; };
+		909FDBFD1FB5E2EE00567097 /* HashTable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HashTable.c; sourceTree = "<group>"; };
 		90AA18CF1FA63509008E65C1 /* TestTextAttachmentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTextAttachmentViewController.h; sourceTree = "<group>"; };
 		90AA18D01FA63509008E65C1 /* TestTextAttachmentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTextAttachmentViewController.m; sourceTree = "<group>"; };
 		90AA18D21FA64127008E65C1 /* NSTextAttachment_Custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSTextAttachment_Custom.h; sourceTree = "<group>"; };
@@ -183,17 +189,28 @@
 			path = Categorys;
 			sourceTree = "<group>";
 		};
+		9069B4211FB7474400457CA3 /* LearnOutLetsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9069B4221FB749A600457CA3 /* LearnOutLetsViewController.h */,
+				9069B4231FB749A600457CA3 /* LearnOutLetsViewController.m */,
+				9069B4251FB749E200457CA3 /* LearnOutLetsCustomView.h */,
+				9069B4261FB749E200457CA3 /* LearnOutLetsCustomView.m */,
+			);
+			path = LearnOutLetsViewController;
+			sourceTree = "<group>";
+		};
 		906E11C61FB0955C005B205A /* MapTableVIewAndHashTable */ = {
 			isa = PBXGroup;
 			children = (
+				909FDBFC1FB5E2D300567097 /* HashTable.h */,
+				909FDBFD1FB5E2EE00567097 /* HashTable.c */,
 				906E11C71FB09579005B205A /* MapTableVIewAndHashTableViewController.h */,
 				906E11C81FB09579005B205A /* MapTableVIewAndHashTableViewController.m */,
 				90E765F41FB3396A006BD316 /* TextItem.h */,
 				90E765F51FB3396A006BD316 /* TextItem.m */,
 				90E765F71FB33F6A006BD316 /* TextObj.h */,
 				90E765F81FB33F6A006BD316 /* TextObj.m */,
-				9039FA8E1FB4AFAC000EC148 /* HashTable.c */,
-				9039FA8F1FB4AFAC000EC148 /* HashTable.h */,
 			);
 			path = MapTableVIewAndHashTable;
 			sourceTree = "<group>";
@@ -264,6 +281,7 @@
 		90D679391F910CE800649913 /* CustomWindow */ = {
 			isa = PBXGroup;
 			children = (
+				9069B4211FB7474400457CA3 /* LearnOutLetsViewController */,
 				906E11C61FB0955C005B205A /* MapTableVIewAndHashTable */,
 				90B8183E1FAF3C0B00577AB8 /* TestBitsOperaterAction */,
 				9029B5FD1FA8C04900648438 /* Categorys */,
@@ -640,6 +658,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9069B4241FB749A600457CA3 /* LearnOutLetsViewController.m in Sources */,
 				90AA18D41FA64127008E65C1 /* NSTextAttachment_Custom.m in Sources */,
 				90D679871F93577B00649913 /* SteAWindow.m in Sources */,
 				906E11C91FB09579005B205A /* MapTableVIewAndHashTableViewController.m in Sources */,
@@ -648,10 +667,11 @@
 				90D679731F910DDD00649913 /* MainViewController.m in Sources */,
 				90E765F91FB33F6A006BD316 /* TextObj.m in Sources */,
 				90B818411FAF3C1C00577AB8 /* TestBitsOperaterActionViewController.m in Sources */,
-				9039FA901FB4AFAC000EC148 /* HashTable.c in Sources */,
+				909FDBFE1FB5E2EF00567097 /* HashTable.c in Sources */,
 				90D679801F91274A00649913 /* CustomViewController.m in Sources */,
 				90D6794A1F910CE800649913 /* main.m in Sources */,
 				90D679841F92EB4600649913 /* UIApplication+SteWindow.m in Sources */,
+				9069B4271FB749E200457CA3 /* LearnOutLetsCustomView.m in Sources */,
 				90AA18D11FA63509008E65C1 /* TestTextAttachmentViewController.m in Sources */,
 				90B8183D1FAF318100577AB8 /* ShowCustomWinViewController.m in Sources */,
 				902FDF2B1FA22A5C006F90E1 /* MainViewControllerTableViewCell.m in Sources */,
@@ -823,9 +843,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 32FLK593KD;
+				DEVELOPMENT_TEAM = J3Y5FLL6V8;
 				INFOPLIST_FILE = CustomWindow/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephanie.www.CustomWindow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -839,9 +859,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 32FLK593KD;
+				DEVELOPMENT_TEAM = J3Y5FLL6V8;
 				INFOPLIST_FILE = CustomWindow/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephanie.www.CustomWindow;
 				PRODUCT_NAME = "$(TARGET_NAME)";

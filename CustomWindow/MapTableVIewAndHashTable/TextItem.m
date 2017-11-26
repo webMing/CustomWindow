@@ -15,7 +15,8 @@ struct dataItem {
     int value;
 };
 
-int hashCode(int key) {
+// 添加变量不然又可能造成方法冲突
+static int hashCode(int key) {
     return key % SIZE;
 }
 
@@ -23,12 +24,14 @@ int hashCode(int key) {
 @end
 
 @implementation TextItem
+
 - (instancetype)init {
     if (self = [super init]) {
         
     }
     return self;
 }
+
 -(NSString*)description {
     return @"TextItem";
 }
