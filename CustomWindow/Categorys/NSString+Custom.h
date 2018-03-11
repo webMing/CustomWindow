@@ -10,4 +10,5 @@
 
 @interface NSString (Custom)
 - (BOOL)isNoBlack ;
+- (BOOL)isContainBlack;
 @end

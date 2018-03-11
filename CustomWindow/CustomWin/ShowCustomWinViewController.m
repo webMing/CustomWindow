@@ -11,16 +11,27 @@
 #import "CustomViewController.h"
 
 @interface ShowCustomWinViewController ()
-
+@property (weak, nonatomic) IBOutlet UIView *layoutTopView;
+@property (weak, nonatomic) IBOutlet UIView *layoutBottomView;
 @end
 
 @implementation ShowCustomWinViewController
-
 
 #pragma mark- LifeCicle
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    if (@available(iOS 11,*)) {
+        UIScrollView* scrollView = nil;
+        _layoutTopView.translatesAutoresizingMaskIntoConstraints = NO;
+        [_layoutTopView removeConstraints:_layoutTopView.constraints];
+        UILayoutGuide* guide = self.view.safeAreaLayoutGuide;
+        [_layoutTopView.leadingAnchor constraintEqualToAnchor:guide.leadingAnchor].active = YES;
+        [_layoutTopView.trailingAnchor constraintEqualToAnchor:guide.trailingAnchor].active = YES;
+        [_layoutTopView.topAnchor constraintEqualToAnchor:guide.topAnchor].active = YES;
+//        [_layoutTopView.bottomAnchor constraintEqualToAnchor:guide.bottomAnchor].active = YES;
+        [_layoutTopView.bottomAnchor constraintEqualToAnchor:guide.bottomAnchor constant:-50].active = YES;
+    }
     // Do any additional setup after loading the view.
 }
 

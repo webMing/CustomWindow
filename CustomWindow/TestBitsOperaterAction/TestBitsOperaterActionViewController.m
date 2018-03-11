@@ -96,7 +96,6 @@ typedef NS_OPTIONS(NSUInteger, SteBitsOptionsOperation) {
  * 提交
  */
 - (IBAction)submit:(id)sender {
-    
     //NSLog(@"_bits.bit_1:%d",_bits.bit_1);
     NSLog(@"%@", [self toBinaryNumWith:self.option]);
     

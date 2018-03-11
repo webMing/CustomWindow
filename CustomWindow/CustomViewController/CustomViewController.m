@@ -6,6 +6,7 @@
 //  Copyright © 2017年 Stephanie. All rights reserved.
 //
 
+#import "UIViewController+SteShowCustomWindow.h"
 #import "CustomViewController.h"
 #import "SteAWindow.h"
 #import <Masonry.h>
@@ -48,7 +49,8 @@
 
 #pragma mark- EventRespone
 - (void)dimissBtnAction {
-    [SteAWindow dissmissSteWinAnimate:YES];
+    //[SteAWindow dissmissSteWinAnimate:YES];
+    [self dissmissFromSteWinAnimate:YES finish:nil];
 }
 #pragma mark- CustomDelegateMethod
 
