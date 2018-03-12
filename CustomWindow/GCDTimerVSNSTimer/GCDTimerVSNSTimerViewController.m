@@ -6,6 +6,7 @@
 //
 
 #import "GCDTimerVSNSTimerViewController.h"
+#import <objc/runtime.h>
 
 typedef NS_ENUM(NSUInteger, GCDTimerStatus) {
     GCDTimerStatusRuning = 1,
@@ -28,6 +29,8 @@ typedef NS_ENUM(NSUInteger, GCDTimerStatus) {
 - (void)viewDidLoad {
     [super viewDidLoad];
     _fireTimes = 10;
+    dispatch_queue_t queue = dispatch_queue_create("com.bestswifter.queue", nil);
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -117,6 +120,8 @@ typedef NS_ENUM(NSUInteger, GCDTimerStatus) {
 }
 
 - (IBAction)triggerNSTimerAction:(UIButton *)sender {
+    
+    
     
     /*在主线程中创建NSTimer
     if (!_nsTimer) {

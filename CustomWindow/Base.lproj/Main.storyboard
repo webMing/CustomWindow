@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="alc-AQ-OvF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="GaY-WT-WVg">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -570,6 +570,54 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="crO-gy-Erl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-678" y="-2888"/>
+        </scene>
+        <!--Learn View Animation View Controller-->
+        <scene sceneID="TNc-us-kjI">
+            <objects>
+                <viewController id="GaY-WT-WVg" customClass="LearnViewAnimationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Lx5-wo-Usx"/>
+                        <viewControllerLayoutGuide type="bottom" id="egO-dU-C6w"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pFR-QI-4J7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tfQ-6B-J8G">
+                                <rect key="frame" x="131.5" y="556" width="111" height="30"/>
+                                <state key="normal" title="beiginAnimation"/>
+                                <connections>
+                                    <action selector="beginAnimation:" destination="GaY-WT-WVg" eventType="touchUpInside" id="KKG-zo-P0U"/>
+                                </connections>
+                            </button>
+                            <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  我要你大大大         " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xEr-TD-W7G">
+                                <rect key="frame" x="111" y="76" width="153" height="153"/>
+                                <color key="backgroundColor" red="0.01176470588" green="0.66274509800000003" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="xEr-TD-W7G" secondAttribute="height" multiplier="1:1" id="AnC-kW-JAj"/>
+                                    <constraint firstAttribute="width" constant="153" id="lS2-pJ-Zy2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xEr-TD-W7G" firstAttribute="top" secondItem="Lx5-wo-Usx" secondAttribute="bottom" constant="56" id="9YC-LQ-fax"/>
+                            <constraint firstItem="egO-dU-C6w" firstAttribute="top" secondItem="tfQ-6B-J8G" secondAttribute="bottom" constant="81" id="IDa-OT-ccQ"/>
+                            <constraint firstItem="tfQ-6B-J8G" firstAttribute="centerX" secondItem="pFR-QI-4J7" secondAttribute="centerX" id="aQK-5k-7ed"/>
+                            <constraint firstItem="xEr-TD-W7G" firstAttribute="centerX" secondItem="pFR-QI-4J7" secondAttribute="centerX" id="knW-Uk-Fug"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="labelWithContraint" destination="lS2-pJ-Zy2" id="LHN-j5-UGw"/>
+                        <outlet property="testLabel" destination="xEr-TD-W7G" id="wjQ-wy-rbC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qGw-oB-P5b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-199.19999999999999" y="-3349.4752623688159"/>
         </scene>
         <!--TimerVSNS Timer View Controller-->
         <scene sceneID="oZp-iW-ayL">

@@ -22,6 +22,7 @@
 		9087929320528AD500520631 /* NSStringEncodingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9087929120528AD500520631 /* NSStringEncodingViewController.m */; };
 		9087929720528B4600520631 /* GCDTimerVSNSTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9087929620528B4600520631 /* GCDTimerVSNSTimerViewController.m */; };
 		9087929A2052BF1C00520631 /* GCDTimerVSNSTimerBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 908792992052BF1C00520631 /* GCDTimerVSNSTimerBaseViewController.m */; };
+		9087929E205683F600520631 /* LearnViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9087929D205683F600520631 /* LearnViewAnimationViewController.m */; };
 		909FDBFE1FB5E2EF00567097 /* HashTable.c in Sources */ = {isa = PBXBuildFile; fileRef = 909FDBFD1FB5E2EE00567097 /* HashTable.c */; };
 		90AA18D11FA63509008E65C1 /* TestTextAttachmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AA18D01FA63509008E65C1 /* TestTextAttachmentViewController.m */; };
 		90AA18D41FA64127008E65C1 /* NSTextAttachment_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AA18D31FA64127008E65C1 /* NSTextAttachment_Custom.m */; };
@@ -103,6 +104,8 @@
 		9087929620528B4600520631 /* GCDTimerVSNSTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDTimerVSNSTimerViewController.m; sourceTree = "<group>"; };
 		908792982052BF1C00520631 /* GCDTimerVSNSTimerBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDTimerVSNSTimerBaseViewController.h; sourceTree = "<group>"; };
 		908792992052BF1C00520631 /* GCDTimerVSNSTimerBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDTimerVSNSTimerBaseViewController.m; sourceTree = "<group>"; };
+		9087929C205683F600520631 /* LearnViewAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LearnViewAnimationViewController.h; sourceTree = "<group>"; };
+		9087929D205683F600520631 /* LearnViewAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnViewAnimationViewController.m; sourceTree = "<group>"; };
 		909FDBFC1FB5E2D300567097 /* HashTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashTable.h; sourceTree = "<group>"; };
 		909FDBFD1FB5E2EE00567097 /* HashTable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HashTable.c; sourceTree = "<group>"; };
 		90AA18CF1FA63509008E65C1 /* TestTextAttachmentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTextAttachmentViewController.h; sourceTree = "<group>"; };
@@ -288,6 +291,15 @@
 			path = GCDTimerVSNSTimer;
 			sourceTree = "<group>";
 		};
+		9087929B205683E500520631 /* LearnViewAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				9087929C205683F600520631 /* LearnViewAnimationViewController.h */,
+				9087929D205683F600520631 /* LearnViewAnimationViewController.m */,
+			);
+			path = LearnViewAnimation;
+			sourceTree = "<group>";
+		};
 		90AA18CE1FA634EA008E65C1 /* TestTextAttachment */ = {
 			isa = PBXGroup;
 			children = (
@@ -354,6 +366,7 @@
 		90D679391F910CE800649913 /* CustomWindow */ = {
 			isa = PBXGroup;
 			children = (
+				9087929B205683E500520631 /* LearnViewAnimation */,
 				9087929420528B3400520631 /* GCDTimerVSNSTimer */,
 				9087929020528AD500520631 /* NSStringEncoding */,
 				90576E3B204A9387002D73E8 /* TestThread */,
@@ -767,6 +780,7 @@
 				90576E2F2047D938002D73E8 /* AbountKvcAndKvoViewController.m in Sources */,
 				9087929720528B4600520631 /* GCDTimerVSNSTimerViewController.m in Sources */,
 				90D679781F91159600649913 /* SteWindow.m in Sources */,
+				9087929E205683F600520631 /* LearnViewAnimationViewController.m in Sources */,
 				90E765F61FB3396A006BD316 /* TextItem.m in Sources */,
 				9029B6001FA8C06800648438 /* NSString+Custom.m in Sources */,
 				90D6796F1F910D8D00649913 /* AppDelegate.m in Sources */,
