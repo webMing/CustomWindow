@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9029B6001FA8C06800648438 /* NSString+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 9029B5FF1FA8C06800648438 /* NSString+Custom.m */; };
 		902FDF2B1FA22A5C006F90E1 /* MainViewControllerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 902FDF2A1FA22A5C006F90E1 /* MainViewControllerTableViewCell.m */; };
+		9037B72F2063437200F78454 /* ApplayForQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9037B72E2063437200F78454 /* ApplayForQuestionViewController.m */; };
 		905596801FA0D86700598A5E /* UIViewController+SteShowCustomWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9055967F1FA0D86700598A5E /* UIViewController+SteShowCustomWindow.m */; };
 		90576E2F2047D938002D73E8 /* AbountKvcAndKvoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90576E2E2047D938002D73E8 /* AbountKvcAndKvoViewController.m */; };
 		90576E322047F135002D73E8 /* SteKeyValueObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 90576E312047F135002D73E8 /* SteKeyValueObserver.m */; };
@@ -78,6 +79,8 @@
 		9029B5FF1FA8C06800648438 /* NSString+Custom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Custom.m"; sourceTree = "<group>"; };
 		902FDF291FA22A5C006F90E1 /* MainViewControllerTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewControllerTableViewCell.h; sourceTree = "<group>"; };
 		902FDF2A1FA22A5C006F90E1 /* MainViewControllerTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewControllerTableViewCell.m; sourceTree = "<group>"; };
+		9037B72D2063437200F78454 /* ApplayForQuestionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplayForQuestionViewController.h; sourceTree = "<group>"; };
+		9037B72E2063437200F78454 /* ApplayForQuestionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplayForQuestionViewController.m; sourceTree = "<group>"; };
 		9055967E1FA0D86700598A5E /* UIViewController+SteShowCustomWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SteShowCustomWindow.h"; sourceTree = "<group>"; };
 		9055967F1FA0D86700598A5E /* UIViewController+SteShowCustomWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SteShowCustomWindow.m"; sourceTree = "<group>"; };
 		90576E2D2047D938002D73E8 /* AbountKvcAndKvoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbountKvcAndKvoViewController.h; sourceTree = "<group>"; };
@@ -217,6 +220,15 @@
 				9029B5FF1FA8C06800648438 /* NSString+Custom.m */,
 			);
 			path = Categorys;
+			sourceTree = "<group>";
+		};
+		9037B72C2063435F00F78454 /* ApplayForQuestion */ = {
+			isa = PBXGroup;
+			children = (
+				9037B72D2063437200F78454 /* ApplayForQuestionViewController.h */,
+				9037B72E2063437200F78454 /* ApplayForQuestionViewController.m */,
+			);
+			path = ApplayForQuestion;
 			sourceTree = "<group>";
 		};
 		90576E2C2047D912002D73E8 /* AbountKvcAndKvo */ = {
@@ -366,6 +378,7 @@
 		90D679391F910CE800649913 /* CustomWindow */ = {
 			isa = PBXGroup;
 			children = (
+				9037B72C2063435F00F78454 /* ApplayForQuestion */,
 				9087929B205683E500520631 /* LearnViewAnimation */,
 				9087929420528B3400520631 /* GCDTimerVSNSTimer */,
 				9087929020528AD500520631 /* NSStringEncoding */,
@@ -756,6 +769,7 @@
 				9069B4241FB749A600457CA3 /* LearnOutLetsViewController.m in Sources */,
 				90AA18D41FA64127008E65C1 /* NSTextAttachment_Custom.m in Sources */,
 				9087929320528AD500520631 /* NSStringEncodingViewController.m in Sources */,
+				9037B72F2063437200F78454 /* ApplayForQuestionViewController.m in Sources */,
 				90D679871F93577B00649913 /* SteAWindow.m in Sources */,
 				906E11C91FB09579005B205A /* MapTableVIewAndHashTableViewController.m in Sources */,
 				90576E322047F135002D73E8 /* SteKeyValueObserver.m in Sources */,
@@ -947,6 +961,7 @@
 			baseConfigurationReference = C47316BD743D5B57DDAF787E /* Pods-CustomWindow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J3Y5FLL6V8;
 				INFOPLIST_FILE = CustomWindow/Info.plist;
@@ -963,6 +978,7 @@
 			baseConfigurationReference = 5937A4FFA5D72F1AE9398F68 /* Pods-CustomWindow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J3Y5FLL6V8;
 				INFOPLIST_FILE = CustomWindow/Info.plist;
