@@ -24,6 +24,7 @@
 		9087929720528B4600520631 /* GCDTimerVSNSTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9087929620528B4600520631 /* GCDTimerVSNSTimerViewController.m */; };
 		9087929A2052BF1C00520631 /* GCDTimerVSNSTimerBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 908792992052BF1C00520631 /* GCDTimerVSNSTimerBaseViewController.m */; };
 		9087929E205683F600520631 /* LearnViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9087929D205683F600520631 /* LearnViewAnimationViewController.m */; };
+		909CF5B1206A20FD00BEC77D /* UIimage + ImageWithContentFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 909CF5B0206A20FD00BEC77D /* UIimage + ImageWithContentFile.m */; };
 		909FDBFE1FB5E2EF00567097 /* HashTable.c in Sources */ = {isa = PBXBuildFile; fileRef = 909FDBFD1FB5E2EE00567097 /* HashTable.c */; };
 		90AA18D11FA63509008E65C1 /* TestTextAttachmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AA18D01FA63509008E65C1 /* TestTextAttachmentViewController.m */; };
 		90AA18D41FA64127008E65C1 /* NSTextAttachment_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AA18D31FA64127008E65C1 /* NSTextAttachment_Custom.m */; };
@@ -109,6 +110,8 @@
 		908792992052BF1C00520631 /* GCDTimerVSNSTimerBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDTimerVSNSTimerBaseViewController.m; sourceTree = "<group>"; };
 		9087929C205683F600520631 /* LearnViewAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LearnViewAnimationViewController.h; sourceTree = "<group>"; };
 		9087929D205683F600520631 /* LearnViewAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnViewAnimationViewController.m; sourceTree = "<group>"; };
+		909CF5AF206A20FD00BEC77D /* UIimage + ImageWithContentFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIimage + ImageWithContentFile.h"; sourceTree = "<group>"; };
+		909CF5B0206A20FD00BEC77D /* UIimage + ImageWithContentFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIimage + ImageWithContentFile.m"; sourceTree = "<group>"; };
 		909FDBFC1FB5E2D300567097 /* HashTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashTable.h; sourceTree = "<group>"; };
 		909FDBFD1FB5E2EE00567097 /* HashTable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HashTable.c; sourceTree = "<group>"; };
 		90AA18CF1FA63509008E65C1 /* TestTextAttachmentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTextAttachmentViewController.h; sourceTree = "<group>"; };
@@ -227,6 +230,8 @@
 			children = (
 				9037B72D2063437200F78454 /* ApplayForQuestionViewController.h */,
 				9037B72E2063437200F78454 /* ApplayForQuestionViewController.m */,
+				909CF5AF206A20FD00BEC77D /* UIimage + ImageWithContentFile.h */,
+				909CF5B0206A20FD00BEC77D /* UIimage + ImageWithContentFile.m */,
 			);
 			path = ApplayForQuestion;
 			sourceTree = "<group>";
@@ -771,6 +776,7 @@
 				9087929320528AD500520631 /* NSStringEncodingViewController.m in Sources */,
 				9037B72F2063437200F78454 /* ApplayForQuestionViewController.m in Sources */,
 				90D679871F93577B00649913 /* SteAWindow.m in Sources */,
+				909CF5B1206A20FD00BEC77D /* UIimage + ImageWithContentFile.m in Sources */,
 				906E11C91FB09579005B205A /* MapTableVIewAndHashTableViewController.m in Sources */,
 				90576E322047F135002D73E8 /* SteKeyValueObserver.m in Sources */,
 				90595AA6204D97CA00872B46 /* CustomSubThread.m in Sources */,

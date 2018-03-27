@@ -11,7 +11,7 @@
 #import <objc/message.h>
 #import <CoreFoundation/CoreFoundation.h>
 @interface ApplayForQuestionViewController ()
-
+@property (weak, nonatomic) IBOutlet UIImageView *myImageView;
 @end
 
 int a = 10;
@@ -27,7 +27,6 @@ void(^myblock)(void) = ^{
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    myblock();
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -35,7 +34,7 @@ void(^myblock)(void) = ^{
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    _objc_msgForward();
+//    _objc_msgForward();
 //    instrumentObjcMessageSends(YES);
     //[self performSelector:@selector(doTestTask)];
 //    instrumentObjcMessageSends(NO);
@@ -53,7 +52,10 @@ void(^myblock)(void) = ^{
 #pragma mark- GetterAndSetter
 
 #pragma mark- PrivateMethod
-// About _objc_ForwordMessage() send
+//tracing msg send
+
+//利用imageNamed创建的图片什么时候释放
+
 
 
 @end
