@@ -17,6 +17,7 @@
 @end
 
 @implementation SteKeyValueObserver
+
 - (instancetype)initWithObservedObj:(id)obj keyPath:(NSString*)kp target:(id)tar options:(NSKeyValueObservingOptions)op selector:(SEL)sel {
     if (!obj || !tar) {
         return nil;
