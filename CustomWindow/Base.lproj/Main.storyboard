@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="pfV-Ux-dQR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1Ik-Uv-fML">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Baseline standard spacing" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="PingFang.ttc">
-            <string>PingFangSC-Regular</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Test Text Attachment View Controller-->
         <scene sceneID="GQd-zb-vBG">
@@ -649,6 +646,87 @@
             </objects>
             <point key="canvasLocation" x="170" y="-4202"/>
         </scene>
+        <!--Efficient Corner Radius View Controller-->
+        <scene sceneID="Vh4-Ag-Swl">
+            <objects>
+                <viewController id="1Ik-Uv-fML" customClass="EfficientCornerRadiusViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="q7O-c8-2Kc"/>
+                        <viewControllerLayoutGuide type="bottom" id="QDl-Z8-KQ0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wqd-8N-xmJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🐲" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gjO-UW-fNM">
+                                <rect key="frame" x="143.5" y="60" width="88" height="35"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="1T5-9c-Tia"/>
+                                    <constraint firstAttribute="width" secondItem="gjO-UW-fNM" secondAttribute="height" multiplier="88:35" id="v6l-LY-9fZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDO-Gz-p4r">
+                                <rect key="frame" x="142" y="125" width="90" height="39"/>
+                                <color key="backgroundColor" red="0.01176470588" green="0.66274509800000003" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="023-oH-NWH"/>
+                                    <constraint firstAttribute="width" secondItem="eDO-Gz-p4r" secondAttribute="height" multiplier="23:10" id="YsN-79-4fa"/>
+                                </constraints>
+                                <state key="normal" title="龙">
+                                    <color key="titleColor" red="0.41568627450000001" green="0.22352941179999999" blue="0.023529411760000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="e5r-lc-2uu">
+                                <rect key="frame" x="128" y="214" width="120" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="122" id="dK2-hY-7D1"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="mdL-3Y-D34"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="19"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="16" maxY="0.0"/>
+                                <state key="normal" title="束带结" image="busline_qc">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="dK2-hY-7D1"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gjO-UW-fNM" firstAttribute="centerY" secondItem="wqd-8N-xmJ" secondAttribute="centerY" id="4a9-81-5nH"/>
+                            <constraint firstItem="e5r-lc-2uu" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="wqd-8N-xmJ" secondAttribute="leading" constant="34.5" id="5BE-6e-ypc"/>
+                            <constraint firstItem="e5r-lc-2uu" firstAttribute="top" secondItem="eDO-Gz-p4r" secondAttribute="bottom" constant="50" id="Mkm-BC-atn"/>
+                            <constraint firstItem="eDO-Gz-p4r" firstAttribute="centerX" secondItem="wqd-8N-xmJ" secondAttribute="centerX" id="QHM-nm-iPM"/>
+                            <constraint firstItem="eDO-Gz-p4r" firstAttribute="top" secondItem="gjO-UW-fNM" secondAttribute="bottom" constant="30" id="ad9-VN-ljc"/>
+                            <constraint firstItem="e5r-lc-2uu" firstAttribute="firstBaseline" secondItem="eDO-Gz-p4r" secondAttribute="baseline" constant="20" symbolType="layoutAnchor" id="c9l-zI-VhT"/>
+                            <constraint firstItem="gjO-UW-fNM" firstAttribute="top" secondItem="q7O-c8-2Kc" secondAttribute="bottom" constant="40" id="eDP-HE-jvE"/>
+                            <constraint firstItem="gjO-UW-fNM" firstAttribute="centerX" secondItem="wqd-8N-xmJ" secondAttribute="centerX" id="f4l-qu-eXq"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="e5r-lc-2uu" secondAttribute="trailing" constant="34.5" id="lLU-Yr-jmv"/>
+                            <constraint firstItem="e5r-lc-2uu" firstAttribute="centerX" secondItem="wqd-8N-xmJ" secondAttribute="centerX" id="tR7-d4-Rkg"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="4a9-81-5nH"/>
+                                <exclude reference="c9l-zI-VhT"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="textBtn" destination="eDO-Gz-p4r" id="QNv-LD-LGv"/>
+                        <outlet property="textLabel" destination="gjO-UW-fNM" id="Umn-yj-FXn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mbh-KQ-3lR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="853.60000000000002" y="-3997.1514242878566"/>
+        </scene>
         <!--TimerVSNS Timer View Controller-->
         <scene sceneID="oZp-iW-ayL">
             <objects>
@@ -861,4 +939,7 @@
             <point key="canvasLocation" x="-354.39999999999998" y="-1373.1634182908547"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="busline_qc" width="40" height="20"/>
+    </resources>
 </document>

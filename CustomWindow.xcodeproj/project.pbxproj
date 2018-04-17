@@ -47,6 +47,7 @@
 		90D679801F91274A00649913 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D6797E1F91274A00649913 /* CustomViewController.m */; };
 		90D679841F92EB4600649913 /* UIApplication+SteWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D679831F92EB4600649913 /* UIApplication+SteWindow.m */; };
 		90D679871F93577B00649913 /* SteAWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D679861F93577B00649913 /* SteAWindow.m */; };
+		90D77F6A20862C19001E5743 /* EfficientCornerRadiusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D77F6920862C19001E5743 /* EfficientCornerRadiusViewController.m */; };
 		90E765F61FB3396A006BD316 /* TextItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E765F51FB3396A006BD316 /* TextItem.m */; };
 		90E765F91FB33F6A006BD316 /* TextObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E765F81FB33F6A006BD316 /* TextObj.m */; };
 		90ED7AFB1FA4F20D0055EB1B /* x.txt in Resources */ = {isa = PBXBuildFile; fileRef = 90ED7AFA1FA4F20C0055EB1B /* x.txt */; };
@@ -152,6 +153,8 @@
 		90D679831F92EB4600649913 /* UIApplication+SteWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+SteWindow.m"; sourceTree = "<group>"; };
 		90D679851F93577B00649913 /* SteAWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SteAWindow.h; sourceTree = "<group>"; };
 		90D679861F93577B00649913 /* SteAWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SteAWindow.m; sourceTree = "<group>"; };
+		90D77F6820862C19001E5743 /* EfficientCornerRadiusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EfficientCornerRadiusViewController.h; sourceTree = "<group>"; };
+		90D77F6920862C19001E5743 /* EfficientCornerRadiusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EfficientCornerRadiusViewController.m; sourceTree = "<group>"; };
 		90E765F41FB3396A006BD316 /* TextItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextItem.h; sourceTree = "<group>"; };
 		90E765F51FB3396A006BD316 /* TextItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextItem.m; sourceTree = "<group>"; };
 		90E765F71FB33F6A006BD316 /* TextObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextObj.h; sourceTree = "<group>"; };
@@ -383,6 +386,7 @@
 		90D679391F910CE800649913 /* CustomWindow */ = {
 			isa = PBXGroup;
 			children = (
+				90D77F6720862BEE001E5743 /* EfficientCornerRadius */,
 				9037B72C2063435F00F78454 /* ApplayForQuestion */,
 				9087929B205683E500520631 /* LearnViewAnimation */,
 				9087929420528B3400520631 /* GCDTimerVSNSTimer */,
@@ -479,6 +483,15 @@
 				90D6797E1F91274A00649913 /* CustomViewController.m */,
 			);
 			path = CustomViewController;
+			sourceTree = "<group>";
+		};
+		90D77F6720862BEE001E5743 /* EfficientCornerRadius */ = {
+			isa = PBXGroup;
+			children = (
+				90D77F6820862C19001E5743 /* EfficientCornerRadiusViewController.h */,
+				90D77F6920862C19001E5743 /* EfficientCornerRadiusViewController.m */,
+			);
+			path = EfficientCornerRadius;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -800,6 +813,7 @@
 				90576E2F2047D938002D73E8 /* AbountKvcAndKvoViewController.m in Sources */,
 				9087929720528B4600520631 /* GCDTimerVSNSTimerViewController.m in Sources */,
 				90D679781F91159600649913 /* SteWindow.m in Sources */,
+				90D77F6A20862C19001E5743 /* EfficientCornerRadiusViewController.m in Sources */,
 				9087929E205683F600520631 /* LearnViewAnimationViewController.m in Sources */,
 				90E765F61FB3396A006BD316 /* TextItem.m in Sources */,
 				9029B6001FA8C06800648438 /* NSString+Custom.m in Sources */,
