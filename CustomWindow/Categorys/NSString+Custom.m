@@ -28,7 +28,7 @@
   }else{
        return YES;
   }
-   
+  
 }
 
 /* To avoid breaking up character sequences such as Emoji, you can do:

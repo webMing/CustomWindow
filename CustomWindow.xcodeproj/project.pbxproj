@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90132BF2208CD64A00C40E0E /* SteAPixelLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 90132BF1208CD64A00C40E0E /* SteAPixelLine.m */; };
+		90132BF5208CDADE00C40E0E /* SteAPixelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90132BF4208CDADE00C40E0E /* SteAPixelView.m */; };
 		9029B6001FA8C06800648438 /* NSString+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 9029B5FF1FA8C06800648438 /* NSString+Custom.m */; };
 		902FDF2B1FA22A5C006F90E1 /* MainViewControllerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 902FDF2A1FA22A5C006F90E1 /* MainViewControllerTableViewCell.m */; };
 		9037B72F2063437200F78454 /* ApplayForQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9037B72E2063437200F78454 /* ApplayForQuestionViewController.m */; };
@@ -77,6 +79,10 @@
 		16B31D4CAEF25ED530D2EA7A /* Pods-CustomWindowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomWindowTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomWindowTests/Pods-CustomWindowTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5937A4FFA5D72F1AE9398F68 /* Pods-CustomWindow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomWindow.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomWindow/Pods-CustomWindow.release.xcconfig"; sourceTree = "<group>"; };
 		81995D286FA3436157B739DC /* libPods-CustomWindowTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomWindowTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90132BF0208CD64A00C40E0E /* SteAPixelLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SteAPixelLine.h; sourceTree = "<group>"; };
+		90132BF1208CD64A00C40E0E /* SteAPixelLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SteAPixelLine.m; sourceTree = "<group>"; };
+		90132BF3208CDADE00C40E0E /* SteAPixelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SteAPixelView.h; sourceTree = "<group>"; };
+		90132BF4208CDADE00C40E0E /* SteAPixelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SteAPixelView.m; sourceTree = "<group>"; };
 		9029B5FE1FA8C06800648438 /* NSString+Custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Custom.h"; sourceTree = "<group>"; };
 		9029B5FF1FA8C06800648438 /* NSString+Custom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Custom.m"; sourceTree = "<group>"; };
 		902FDF291FA22A5C006F90E1 /* MainViewControllerTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewControllerTableViewCell.h; sourceTree = "<group>"; };
@@ -224,6 +230,10 @@
 			children = (
 				9029B5FE1FA8C06800648438 /* NSString+Custom.h */,
 				9029B5FF1FA8C06800648438 /* NSString+Custom.m */,
+				90132BF0208CD64A00C40E0E /* SteAPixelLine.h */,
+				90132BF1208CD64A00C40E0E /* SteAPixelLine.m */,
+				90132BF3208CDADE00C40E0E /* SteAPixelView.h */,
+				90132BF4208CDADE00C40E0E /* SteAPixelView.m */,
 			);
 			path = Categorys;
 			sourceTree = "<group>";
@@ -790,6 +800,7 @@
 				9037B72F2063437200F78454 /* ApplayForQuestionViewController.m in Sources */,
 				90D679871F93577B00649913 /* SteAWindow.m in Sources */,
 				909CF5B1206A20FD00BEC77D /* UIimage + ImageWithContentFile.m in Sources */,
+				90132BF2208CD64A00C40E0E /* SteAPixelLine.m in Sources */,
 				906E11C91FB09579005B205A /* MapTableVIewAndHashTableViewController.m in Sources */,
 				90576E322047F135002D73E8 /* SteKeyValueObserver.m in Sources */,
 				90595AA6204D97CA00872B46 /* CustomSubThread.m in Sources */,
@@ -815,6 +826,7 @@
 				90D679781F91159600649913 /* SteWindow.m in Sources */,
 				90D77F6A20862C19001E5743 /* EfficientCornerRadiusViewController.m in Sources */,
 				9087929E205683F600520631 /* LearnViewAnimationViewController.m in Sources */,
+				90132BF5208CDADE00C40E0E /* SteAPixelView.m in Sources */,
 				90E765F61FB3396A006BD316 /* TextItem.m in Sources */,
 				9029B6001FA8C06800648438 /* NSString+Custom.m in Sources */,
 				90D6796F1F910D8D00649913 /* AppDelegate.m in Sources */,

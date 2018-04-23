@@ -19,6 +19,7 @@
     [super viewDidLoad];
     [self congiureLabelLayer];
     [self configureBtnLayer];
+    
 }
 
 - (void)congiureLabelLayer {
