@@ -7,6 +7,7 @@
 //
 
 #import "EfficientCornerRadiusViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface EfficientCornerRadiusViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *textBtn;
@@ -17,6 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSError* error = nil;
+    [[AVAudioSession sharedInstance]setCategory:nil error:&error];
     [self congiureLabelLayer];
     [self configureBtnLayer];
     
