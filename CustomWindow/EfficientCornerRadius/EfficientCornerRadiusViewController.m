@@ -19,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSError* error = nil;
+    /////gygyghghggjhjjjkdkjfdfsfdsf
     [[AVAudioSession sharedInstance]setCategory:nil error:&error];
     [self congiureLabelLayer];
     [self configureBtnLayer];
