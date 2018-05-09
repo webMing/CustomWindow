@@ -135,7 +135,7 @@
 		90B8183C1FAF318100577AB8 /* ShowCustomWinViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowCustomWinViewController.m; sourceTree = "<group>"; };
 		90B8183F1FAF3C1C00577AB8 /* TestBitsOperaterActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBitsOperaterActionViewController.h; sourceTree = "<group>"; };
 		90B818401FAF3C1C00577AB8 /* TestBitsOperaterActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBitsOperaterActionViewController.m; sourceTree = "<group>"; };
-		90D46B0120A35D6400D0E0A7 /* textIgn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = textIgn.h; sourceTree = "<group>"; };
+		90D46B0220A35E2600D0E0A7 /* textIgn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = textIgn.h; sourceTree = "<group>"; };
 		90D679371F910CE800649913 /* CustomWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D679411F910CE800649913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90D679431F910CE800649913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -501,7 +501,7 @@
 			children = (
 				90D77F6820862C19001E5743 /* EfficientCornerRadiusViewController.h */,
 				90D77F6920862C19001E5743 /* EfficientCornerRadiusViewController.m */,
-				90D46B0120A35D6400D0E0A7 /* textIgn.h */,
+				90D46B0220A35E2600D0E0A7 /* textIgn.h */,
 			);
 			path = EfficientCornerRadius;
 			sourceTree = "<group>";
