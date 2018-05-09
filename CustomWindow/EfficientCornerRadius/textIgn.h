@@ -9,5 +9,5 @@
 #ifndef textIgn_h
 #define textIgn_h
 
-//dfsdfsdsdfsdfsdf第三方公司的风格
+
 #endif /* textIgn_h */
