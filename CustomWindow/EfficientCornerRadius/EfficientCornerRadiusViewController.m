@@ -19,8 +19,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSError* error = nil;
-    /////gygyghghggjhjjjkdkjfdfsfdsf是打发到事发地
-    //dsfasdf sdf
     [[AVAudioSession sharedInstance]setCategory:nil error:&error];
     [self congiureLabelLayer];
     [self configureBtnLayer];
