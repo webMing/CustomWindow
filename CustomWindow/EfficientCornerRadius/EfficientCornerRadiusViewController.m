@@ -22,7 +22,7 @@
     [[AVAudioSession sharedInstance]setCategory:nil error:&error];
     [self congiureLabelLayer];
     [self configureBtnLayer];
-    
+    //sfdsdfasdf
 }
 
 - (void)congiureLabelLayer {
